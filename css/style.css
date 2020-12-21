@@ -1,0 +1,102 @@
+/* Gradient */
+/* TEXT */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  width: 375px;
+  height: 941px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af67e9), color-stop(#9f67e9), color-stop(#8d66e9), color-stop(#7a66e8), to(#6565e7));
+  background-image: linear-gradient(to bottom, #af67e9, #9f67e9, #8d66e9, #7a66e8, #6565e7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq-main-container {
+  height: 700px;
+  width: 330px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.faq-main-container .illustration {
+  position: absolute;
+  top: 12px;
+  left: 45px;
+}
+
+.faq-main-container .shadow {
+  position: relative;
+  left: 50px;
+}
+
+.faq-main-container .faq-sub-container {
+  width: 100%;
+  height: 572px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq-main-container .faq-sub-container h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.faq-main-container .faq-sub-container .question-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 400px;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+.faq-main-container .faq-sub-container .question-container .subquestion-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.faq-main-container .faq-sub-container .question-container .subquestion-container .faq-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.faq-main-container .faq-sub-container .question-container .subquestion-container .faq-container p {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
