@@ -80,9 +80,9 @@ body {
           justify-content: center;
           align-content: space-between;
           min-height: 55px;
-          max-height: 70px;
+          max-height: 80px;
           width: 100%;
-          margin-top: 1px;
+          margin-top: 3px;
           margin-bottom: 1px;
 
           border-bottom: 1px solid grey;
@@ -104,6 +104,10 @@ body {
               width: 9px;
               height: 9px;
             }
+
+            .rotate {
+              transform: rotate(180deg);
+            }
           }
 
           .bold {
@@ -115,15 +119,21 @@ body {
             justify-content: center;
             align-items: center;
             width: 90%;
-            height: 40px;
-            margin-top: 5px;
+            height: 50px;
+            margin-top: 10px;
+            margin-bottom: 5px;
             padding-bottom: 10px;
 
             display: none;
 
             .answer {
-              font-size: 12px;
+              font-size: 11px;
+              line-height: 1.5;
               height: 30px;
+            }
+
+            .answer:hover {
+              cursor: pointer;
             }
           }
 
