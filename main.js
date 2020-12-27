@@ -1,6 +1,22 @@
 let questionContainers = document.querySelectorAll(".question");
 let answerContainers = document.querySelectorAll('.answer-container');
+let bgPattern = document.getElementById('bg-pattern');
+let illustration = document.getElementById('illustration');
 
+console.log(bgPattern);
+
+const windowResize = () => {
+
+    if(window.innerWidth < 770) {
+        illustration.src = 'images/illustration-woman-online-mobile.svg';
+        bgPattern.src = 'images/bg-pattern-mobile.svg';
+    } else {
+        illustration.src = 'images/illustration-woman-online-desktop.svg';
+        bgPattern.src = 'images/bg-pattern-desktop.svg';
+    }
+}
+
+window.addEventListener('resize', windowResize);
 
 for(let questionContainer of questionContainers) {
     questionContainer.addEventListener('click', event => {
